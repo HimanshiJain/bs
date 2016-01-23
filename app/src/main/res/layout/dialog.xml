@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="College"/>
+    <Spinner xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/autocomplete_college"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/PrimaryDark"
+        android:autoText="true"
+        android:textColorHint="@color/PrimaryDark"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Branch"/>
+        <Spinner xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/autocomplete_branch"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/PrimaryDark"
+            android:autoText="true"
+            android:textColorHint="@color/PrimaryDark"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:text="Semester"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Spinner xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/autocomplete_sem"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/PrimaryDark"
+            android:autoText="true"
+            android:textColorHint="@color/PrimaryDark"
+            android:layout_height="match_parent"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

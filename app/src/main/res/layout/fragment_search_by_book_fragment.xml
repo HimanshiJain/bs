@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.himanshijain.booksquare.SearchByBookFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:filterTouchesWhenObscured="true"
+        android:focusableInTouchMode="false"
+        android:nestedScrollingEnabled="false"
+        android:overScrollMode="never"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:transitionGroup="true"
+        android:id="@+id/searchByBook"
+        > </SearchView>
+
+</FrameLayout>

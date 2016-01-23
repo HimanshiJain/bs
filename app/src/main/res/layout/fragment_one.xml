@@ -1,0 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.himanshijain.booksquare.one"
+    android:isScrollContainer="false">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:src="@drawable/offer1"
+        android:id="@+id/tv1"
+        android:layout_gravity="center"        />
+
+</ScrollView>
